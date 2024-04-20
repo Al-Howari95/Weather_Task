@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  #Footer_1 {
+    margin-right: 180px;
+    margin-bottom: -32px;
+  }
+  
+  #madia {
+
+    display: flex;
+    justify-content: center;
+  }
+  body {
+    font-family: Arial, sans-serif;
+}
+
+
+#Howari {
+    animation: slide-in 1s ease forwards;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+#Card_1 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+#Card_1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #90cdf4 ;
+}
+
+
+
+
+span#WELCOM {
+  display: inline-flex;
+  color: #6CB2EB;
+  font-size: larger;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing infinite;
+  animation-duration: 3s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+  border-right: 3px solid #6CB2EB;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+

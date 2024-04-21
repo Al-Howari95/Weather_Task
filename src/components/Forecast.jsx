@@ -3,7 +3,7 @@ import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThermometerHalf, faSun , faWind} from '@fortawesome/free-solid-svg-icons';
 
-const API_KEY = 'b0fb4fb0a8f44532b1a201548241804'; // Replace with your actual API key
+const API_KEY = 'b0fb4fb0a8f44532b1a201548241804'; 
 
 const Forecast = ({ location }) => {
     const [forecastData, setForecastData] = useState(null);

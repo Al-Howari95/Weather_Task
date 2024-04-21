@@ -7,7 +7,7 @@ const SearchBar = ({ onSearch }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (!query) {
-            return; // Do nothing if the input field is empty
+            return; 
         }
         const result = await onSearch(query);
         if (result) {
